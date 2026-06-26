@@ -76,7 +76,7 @@ const Suppliers = () => {
   return (
     <div className="min-vh-100 bg-light">
       <nav className="navbar navbar-dark bg-dark px-4">
-        <span className="navbar-brand fw-bold">Inventory System</span>
+        <span className="navbar-brand fw-bold">Emmanuel Kofi Inventory Management System</span>
         <div className="d-flex align-items-center gap-3">
           <span className="text-white">Hello, {user?.name}</span>
           <button className="btn btn-outline-light btn-sm" onClick={() => navigate('/dashboard')}>Dashboard</button>
